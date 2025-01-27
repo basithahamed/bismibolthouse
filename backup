@@ -1,0 +1,44 @@
+<div class="parentContainer" style="width: 100%;"> <!-- Ensure full height -->
+        <div class="flex" style="border:2px solid;border-radius: 20px;align-items: center;justify-content: center;"
+            id="flexboxhero"> <!-- Ensure flex container takes full height -->
+            <div class="w-1/2 flex justify-center items-center" style="text-align: center;margin: auto;">
+                <!-- Center content vertically and horizontally -->
+                <!-- <h1 class="text-center">Bismi Bolt House</h1>  -->
+            </div>
+            <div class="w-1/2 flex-1 justify-center items-center" style="margin: auto;width: 100%;">
+                <!-- Carousel content here (no changes needed for this part) -->
+                <div id="default-carousel" class="relative w-full" data-carousel="slide"
+                    style="width: 100%;margin: auto;justify-content: center;">
+                    <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+                        <!-- Carousel items (same as before) -->
+                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                            <img src="./src/assets/pic1.jpg"
+                                class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                                alt="...">
+                        </div>
+                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                            <img src="./src/assets/pic1.jpg"
+                                class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                                alt="...">
+                        </div>
+                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                            <img src="./src/assets/pic1.jpg"
+                                class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                                alt="...">
+                        </div>
+                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                            <img src="./src/assets/pic1.jpg"
+                                class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                                alt="...">
+                        </div>
+                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                            <img src="./src/assets/pic1.jpg"
+                                class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                                alt="...">
+                        </div>
+                    </div>
+                    <!-- Carousel indicators and controls (same as before) -->
+                </div>
+            </div>
+        </div>
+    </div>
