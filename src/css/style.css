@@ -38,6 +38,10 @@
         align-items: center;
         justify-content: center;
     }
+    .explore-right
+    {
+        display: none;
+    }
 
     .imgexplore {
         max-width: 90%;
