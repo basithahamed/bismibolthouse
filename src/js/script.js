@@ -15,5 +15,5 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     // Change background every 5 seconds
-    setInterval(changeBackground, 5000);
+    setInterval(changeBackground, 4000);
 });
