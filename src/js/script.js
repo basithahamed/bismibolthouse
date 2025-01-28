@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const heroSection = document.getElementById("hero");
+    const slideshowImage = document.getElementById("slideshow-image");
 
     const images = [
         "./src/assets/bg1.jpg",
@@ -9,11 +9,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
     let currentIndex = 0;
 
-    function changeBackground() {
-        heroSection.style.backgroundImage = `url('${images[currentIndex]}')`;
+    function changeImage() {
+        slideshowImage.src = images[currentIndex];
         currentIndex = (currentIndex + 1) % images.length;
     }
 
-    // Change background every 5 seconds
-    setInterval(changeBackground, 4000);
+    // Change image every 4 seconds
+    setInterval(changeImage, 4000);
 });

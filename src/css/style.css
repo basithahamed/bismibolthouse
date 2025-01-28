@@ -11,6 +11,9 @@
     background-position: 100% 100%;
 
 } */
+ #hero{
+  height: 70vh;
+ }
 
 .explore {
     display: flex;
@@ -43,6 +46,10 @@
         justify-content: center;
         width: 90%;
 
+
+        padding: 30px;
+        margin: auto;
+        
     }
     .explore-right
     {
@@ -52,6 +59,7 @@
     .explore-left{
         width: 100%;
         padding: 0px;
+        margin: 0px;
         padding-top: 35px;
         padding-bottom: 35px;        
 
@@ -60,6 +68,9 @@
     .imgexplore {
         max-width: 90%;
         height: auto;
+    }
+    #hero{
+        height: 40vh;
     }
 
 }
