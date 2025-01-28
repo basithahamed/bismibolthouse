@@ -5,6 +5,8 @@
     background-color: #374151;
     /* Equivalent to bg-gray-700 */
     background-blend-mode: multiply;
+    transition: background-image 1s ease-in-out;
+    background-attachment: fixed;
 }
 
 .explore {
