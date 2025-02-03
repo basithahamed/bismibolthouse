@@ -1,20 +1,11 @@
-/* #hero {
-    background-image: url('../assets/silver-nails.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-   
-    transition: background-image 1s ease-in-out; 
-    background-attachment: fixed;
 
-    background-size: auto;
-    background-size: cover;
-    background-position: 100% 100%;
-
-} */
  #hero{
   height: 70vh;
  }
 
+a{
+    cursor: pointer;
+}
 .explore {
     display: flex;
     flex-direction: row;
@@ -22,10 +13,10 @@
     margin-top: 100px;
     margin-bottom: 100px;
     gap: 15px;
-    padding-left: 6rem;
-    padding-right: 6rem;
+    /* padding-left: 6rem;
+    padding-right: 6rem; */
     background-color: #0060b4;
-    width: 80%;
+    width: 90%;
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     color: #fff;
@@ -38,6 +29,58 @@
 }
 
 
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes fadeInZoom {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* .animated-text {
+    animation: fadeInUp 1.5s ease-out forwards;
+    opacity: 0; 
+}
+.animated-image {
+    animation: fadeInZoom 1.5s ease-out forwards;
+    opacity: 0; 
+} */
+
+.animated-text, .animated-image {
+    opacity: 0;
+    transform: translateY(30px);
+    
+    transition: all 1.5s ease-out;
+}
+
+.scroll-animate {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+}
+.fixed-bubble {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 50; /* Ensure it's above other elements */
+}
+.boltType li{
+    padding-top: 15px;
+    font-weight: 150;
+    letter-spacing: .4;
+}
 
 @media only screen and (max-width: 600px) {
     .explore {
